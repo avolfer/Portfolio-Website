@@ -8,7 +8,7 @@ button.onclick = function () {
     body.style.backgroundColor = originalBackgroundColor;
     isColorChanged = false;
   } else {
-    body.style.backgroundColor = "#423f3b";
+    body.style.backgroundColor = "#111111";
     isColorChanged = true;
   }
 };

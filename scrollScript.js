@@ -29,7 +29,7 @@ const scroll4 = document.querySelector('#scrollDownBio');
 
 scroll4.addEventListener('click', () => {
   //Scroll to ID element
-  document.querySelector('bioSection').scrollIntoView({behavior: "smooth"});
+  document.querySelector('#bioSection').scrollIntoView({behavior: "smooth"});
 });
 
 

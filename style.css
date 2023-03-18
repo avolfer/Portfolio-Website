@@ -379,8 +379,9 @@
 
 
 body {
-    background-color: #999999;
+    background-color: #400000;
     font-family: 'Orbitron', sans-serif;
+    color:aliceblue;
 }
 
 #sideBar {
@@ -398,12 +399,10 @@ body {
 }
 
 #sideBar > img:hover {
-    transform: scale(1.1);
     cursor: pointer;
 }
 
 #sideBar > a:hover {
-    transform: scale(1.1);
     cursor: pointer;
 }
 
@@ -414,25 +413,35 @@ body {
     padding-right: 5px;
 }
 
+#background {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid #111111;
+}
+
 header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
     margin-left: 5.5em;
     padding: 3px;
     margin-bottom: 130px;
 }
 
+header > h1 {
+    font-size: 400%;
+}
+
 nav {
     /* margin-left: 5.5em; */
-    border: 2px solid white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 80px;
 }
 
 nav > span {
@@ -442,15 +451,17 @@ nav > span {
     padding: 35px;
     margin-top: 20px;
     font-size: 150%;
+    color: black;
+    transition: all 1s;
 }
 
 nav > span:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 #techSkillsSection {
     margin-top: 150px;
-    border: 2px solid white;
     text-align: center;
 }
 
@@ -460,31 +471,33 @@ nav > span:hover {
 }
 
 #techSkillsSection > div {
-    border: 2px solid white;
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 #techSkillsSection > div > img {
     padding: 30px;
     border: 5px solid black;
-    border-radius: 80px;
+    border-radius: 35px;
+    background-color: whitesmoke;
 }
 
 #projectSection {
-    margin-top: 1050px;
+    margin-top: 550px;
 }
 
 #expSection {
-    margin-top: 1050px;
+    margin-top: 550px;
 }
 
 #bioSection {
-    margin-top: 1050px;
+    margin-top: 500px;
+    text-align: center;
+    border: 20px solid black;
+    padding: 40px;
 }
 
 
