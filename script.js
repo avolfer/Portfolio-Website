@@ -1,6 +1,6 @@
-const scroll = document.querySelector('#scrollDownProjects');
+const scroll = document.querySelector('#scrollDownFooter');
 
 scroll.addEventListener('click', () => {
   //Scroll to ID element 
-  document.querySelector('#wybrana_sekcja').scrollIntoView({behavior: "smooth"});
+  document.querySelector('Footer').scrollIntoView({behavior: "smooth"});
 });

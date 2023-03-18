@@ -444,3 +444,13 @@ nav > span:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
+
+footer {
+    margin-top: 4000px;
+    margin-left: 5.5em;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
