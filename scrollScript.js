@@ -1,4 +1,4 @@
-let scroll = document.querySelector('#scrollDownSkills');
+const scroll = document.querySelector('#scrollDownSkills');
 
 scroll.addEventListener('click', () => {
   //Scroll to ID element
@@ -7,7 +7,7 @@ scroll.addEventListener('click', () => {
 
 
 
-let scroll2 = document.querySelector('#scrollDownProjects');
+const scroll2 = document.querySelector('#scrollDownProjects');
 
 scroll2.addEventListener('click', () => {
   //Scroll to ID element
@@ -16,7 +16,7 @@ scroll2.addEventListener('click', () => {
 
 
 
-let scroll3 = document.querySelector('#scrollDownExp');
+const scroll3 = document.querySelector('#scrollDownExp');
 
 scroll3.addEventListener('click', () => {
   //Scroll to ID element
@@ -25,7 +25,7 @@ scroll3.addEventListener('click', () => {
 
 
 
-let scroll4 = document.querySelector('#scrollDownBio');
+const scroll4 = document.querySelector('#scrollDownBio');
 
 scroll4.addEventListener('click', () => {
   //Scroll to ID element
@@ -34,7 +34,7 @@ scroll4.addEventListener('click', () => {
 
 
 
- scroll5 = document.querySelector('#scrollDownFooter');
+const scroll5 = document.querySelector('#scrollDownFooter');
 
 scroll5.addEventListener('click', () => {
   //Scroll to ID element

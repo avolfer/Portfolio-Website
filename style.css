@@ -466,6 +466,7 @@ nav > span:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 #techSkillsSection > div > img {
@@ -494,21 +495,11 @@ nav > span:hover {
 
 
 
-span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid black;
-    border-radius: 80px;
-    background-color: whitesmoke;
-    padding: 35px;
-    margin-top: 20px;
-    font-size: 150%;
-}
+
 
 
 footer {
-    margin-top: 100px;
+    margin-top: 400px;
     margin-left: 5.5em;
     border: 2px solid white;
     display: flex;
