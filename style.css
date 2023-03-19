@@ -452,12 +452,12 @@ nav > span {
     margin-top: 20px;
     font-size: 150%;
     color: whitesmoke;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 nav > span:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scaleX(1.1);
 }
 
 #techSkillsSection {
@@ -485,6 +485,27 @@ nav > span:hover {
     background-color: whitesmoke;
 }
 
+#techSkillsSection-galery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#techSkillsSection-certificates {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 200px;
+    padding: 5px;
+    transition: all 1s;
+}
+
+#techSkillsSection-certificates:hover {
+    transform: scale(1.1);
+}
+
 #projectSection {
     margin-top: 550px;
 }
@@ -497,7 +518,10 @@ nav > span:hover {
     margin-top: 500px;
     text-align: center;
     border: 20px solid black;
+    border-radius: 20px;
     padding: 40px;
+    background-color: #111111;
+    font-size: 140%;
 }
 
 
@@ -513,7 +537,6 @@ nav > span:hover {
 
 footer {
     margin-top: 400px;
-    margin-left: 5.5em;
     border: 2px solid white;
     display: flex;
     flex-direction: row;
