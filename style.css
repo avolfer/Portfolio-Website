@@ -513,10 +513,40 @@ nav > span:hover {
 
 #projectSection {
     margin-top: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projectSection-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 140%;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.projectSection-project > a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 0.5s;
+}
+
+.projectSection-project > a:hover {
+    transform: scale(1.1);
+}
+
+#projectSection > p {
+    font-size: 300%;
 }
 
 #expSection {
     margin-top: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #bioSection {
