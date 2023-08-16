@@ -545,8 +545,17 @@ nav > span:hover {
 #expSection {
     margin-top: 550px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#expSection > h4 {
+    font-size: 200%;
+}
+
+#expSection > p {
+    font-size: 150%;
 }
 
 #bioSection {
